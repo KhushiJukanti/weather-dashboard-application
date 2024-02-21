@@ -7,11 +7,16 @@ import WeatherWidget from './Components/WeatherWidget';
 import Footer from './Components/Footer';
 
 import Navigation from './Components/Navbar';
+import { useEffect } from 'react';
+import UseStateDemo from './Pages/UseStateDemo';
+import UseEffectdemo from './Pages/UseEffectdemo';
 
 const App = () => {
   return (
     <div className="App">
-      <Navigation />
+      {/* <UseStateDemo/> */}
+      <UseEffectdemo/>
+      {/* <Navigation />
       <Container fluid>
         <Row>
           <Col>
@@ -19,7 +24,11 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
+      <Footer /> */}
+
+      {/* use Effect */}
+      {/* import {useEffect} from "react"
+      const [useState,setUseState] = useState("") */}
     </div>
   );
 };
